@@ -244,6 +244,9 @@ body.dark-theme {
     border-radius: 2rem;
     transition: bottom 0.3s;
   }
+  .cursor,.cursor2{
+    display: none;
+  }
 }
 
 .nav--list {
