@@ -244,11 +244,11 @@ body.dark-theme {
     border-radius: 2rem;
     transition: bottom 0.3s;
   }
-  .cursor,.cursor2{
+  .cursor,
+  .cursor2 {
     display: none;
   }
 }
-
 
 .nav--list {
   grid-template-columns: repeat(3, max-content);
@@ -884,19 +884,19 @@ body.dark-theme {
 }
 
 /*=============== Cursor ===============*/
-.cursor{
+.cursor {
   position: fixed;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border: 1px solid var(--title-color);
   border-radius: 50%;
   left: 0;
   top: 0;
   pointer-events: none;
-  transform: translate(-50%,-50%);
-  transition: .1s;
+  transform: translate(-50%, -50%);
+  transition: 0.1s;
 }
-.cursor2{
+.cursor2 {
   position: fixed;
   width: 8px;
   height: 8px;
@@ -905,12 +905,11 @@ body.dark-theme {
   left: 0;
   top: 0;
   pointer-events: none;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
+  transition: 0.15s;
+
+
 }
-
-
-
-
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
